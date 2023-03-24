@@ -22,7 +22,7 @@ Optimal Delivery Routes is a platform that enable users add their organisation d
 | PUT | /v1/location/:locationId/update | To edit details of a location |
 | GET | /v1/location/:causeId | To retrieve details of a single location |
 | GET | /v1/location | To retrieve the details of a all locations |
-| DELETE | /v1/location/:causeId | To delete a single location |
+| DELETE | /v1/location/:locationId | To delete a single location |
 | POST | /v1/delivery/generate_details | To generate the optimal route for delivery and delivery cost |
 ### Technologies Used
 * [Springboot](https://www.spring.io/) This is a popular Java-based framework that is used for building stand-alone, production-ready web applications and microservices
